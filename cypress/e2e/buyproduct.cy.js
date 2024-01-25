@@ -1,4 +1,4 @@
-/* /// <reference types="cypress"/>
+/// <reference types="cypress"/>
 
 import Login from "../PageObject/login"
 import hamburgerNav from "../PageObject/hamburger_nav"
@@ -55,4 +55,4 @@ after(()=>{
 
 })
 
-}) */
+}) 
