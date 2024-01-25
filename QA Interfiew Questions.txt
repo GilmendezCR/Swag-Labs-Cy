@@ -1,0 +1,162 @@
+What is QA , QC , Software Testing?
+- QA is is process based, it takes a prenventive approach. It focuses on the implementations and improvements of processes.
+- Quality Control is product based, takes a reactive approach. It focuses on supporting the testing activites in order to achieve the proper levels of quality.
+- Software Testing is a way to assess the quality of the software in order to reduce the risk of failure during operation.
+
+What a is Defect?
+-It is the outcome of a Human error.
+
+What is a Failure?
+-It is the result of not succeding user expectations, caused by a bug in production.
+
+Can you explain me what is the Bug Life Cycle?
+-A set of phases on which the bug goes through. Those are: New --> Assigned --> In-progress --> Re-test --> Done
+
+Meaning of CI/CD?
+-It stands for Continious Integration and Continious Delivery
+
+Which are the Testing Principles:
+- Testing reveals the presence of defects but not its absense
+- Early testing saves times and money
+- Defect Clustering
+- Pestice Paradox
+- Testing is Context Independent
+- Absence of error is a phallacys
+- Test exaustion is not possible (Unless for trivial cases)
+
+
+Which are the Testing Activities?
+- Test Plan:
+   Work Product: Test Plan.
+   Activity that defines the test objectives and approach on how to meet those objectives, based on the actual context where defined.
+
+- Test Monitoring and Control
+  Work Product: Test Progress reports.
+  Activity that compares the actual progress is aligned with the objectives defined during the test planning(Monitoring). If not corresponding adjustment is made to acomplish the objetives(Control).
+- Test Analysis
+  Work Product: Test Charters.
+  Question: What are we going test?
+  Activity that analyze the test basis in order to identify the testable features within the application. We also prioritize our test conditions.
+  
+- Testing Design
+  Work Product: Test Cases.
+  Question: How are we going to test?
+  Activity on which we take the test conditions and elaborate the test cases.
+  
+- Test Implementation
+  Work Product: Test Suites.
+  Question: Do we have everything we need?
+  Activity on which we create the test procedure, often elaborated into test suites. Also manual and automated test scripts are created.
+
+- Test Execution
+  Work Product: Bug reports.
+  Activity on which the test procedures or test suites are executed, this is known as test run. Actual results are compared with the expected ones. If not corresponding defect reports are created.
+
+- Test Completion
+  Exit Criteria is accomplished
+
+What is a Test Suite?
+Is a way to categorize test cases, works as a container/box to group test cases.
+
+What are the Testing Levels?
+-Component testing / Unit
+-Component Integration testing
+-System Testing
+-System Integration testing
+-Acceptance testing / UAT
+
+Difference between Static and Dynamic testing?
+-Static testing is when the system or component is not getting executed and Dynamic testing is when the system or component is getting executed.
+
+What is Functional testing?
+-Type of testing that focuses on that the system should do, based on user requirements.
+
+What is Non Functional testing?
+-Types of testing that focuses on how well the system behaves under certain circumstances. Based on environment factors such as: Security, interoperability , usability , performance.
+
+What is Black-Box testing?
+- Type of testing done withoutr knowing the code/architecture of the application. More UI, End to end testing
+
+What is White-Box testing?
+- Type of testing done by knowing the actual code/architecture of the application.
+
+Difference between Verification and Validation?
+- Verification we verify that the user requierements are being met and Validation we validate that the user and business expectations/needs are being met
+
+How do you define a good Test Case?
+-One that is able to find defects but also one that has enough test coverage
+
+Test Estimation
+-Poker Planning based on points/ Experienced based
+
+Black Box techniques
+-Equivalence Partitioning
+-Boundary Value Analysis
+-Use Case testing
+-Table Decisioning
+
+White Box testing techniques:
+- Statement testing
+
+
+Confirmation testing confirms that an original defect has been successfully fixed. Depending on the risk,
+one can test the fixed version of the software in several ways, including:
+• executing all test cases that previously have failed due to the defect, or, also by
+• adding new tests to cover any changes that were needed to fix the defect
+However, when time or money is short when fixing defects, confirmation testing might be restricted to 
+simply exercising the steps that should reproduce the failure caused by the defect and checking that the 
+failure does not occur.
+Regression testing confirms that no adverse consequences have been caused by a change, including a 
+fix that has already been confirmation tested. These adverse consequences could affect the same 
+component where the change was made, other components in the same system, or even other 
+connected systems. Regression testing may not be restricted to the test object itself but can also be 
+related to the environment. It is advisable first to perform an impact analysis to optimize the extent of the 
+regression testing. Impact analysis shows which parts of the software could be affected.
+
+
+
+Agile Testing:
+What is SCRUM. Is an Agile Methodolgy used in software development.
+
+Activities within SCRUM?
+- Daily standups. 15 min what you did yesterday, today and if any blockers
+- Sprints. A determine period of time assigned to finish a group of work. Usually from 1 to 5 weeks.
+- Sprint retrospective. What went well, needs to improve, recognition
+- Grooming planning.
+
+What is an API: Aplication Programming Interface. A service/code that allow us to connect or communicate to different models from an internal or external system.
+
+What is Resful API: Architecture based on HTTP communication
+
+What is HTTP:
+Hypertext transfer protocol, port 80. Method on which web applications are being fetch from the server to our browser(Client)
+
+
+HTTP Status Codes:
+-100: Informational
+-200: Success
+-300: Redirection
+-400: Client Error
+-500: Server Error
+
+HTTP Methods:
+-GET: Method used to fetch an object from the DB
+-HEAD: Method used to fetch an object with just its header
+-POST: Method used to create a new object within the DB
+-PUT: Method used to update the last record within the DB
+-DELETE: Method used to delete an object within the DB
+
+
+Command Lines Interface:
+cd, mkdir,ls, ifconfig, 
+
+Automation Software Life Cycle:
+
+1.Scope for Automation
+2. Tool for Automation
+3 Set up environment
+4. Create and Execute automated test scripts
+5. Maintanence
+6. Plan , design and strategy
+
+
