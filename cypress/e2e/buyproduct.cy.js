@@ -1,9 +1,9 @@
 /// <reference types="cypress"/>
 
-import Login from "../../PageObject/login"
-import hamburgerNav from "../../PageObject/hamburger_nav"
-import products from "../../PageObject/products"
-import checkout from "../../PageObject/checkout_page"
+import Login from "../PageObject/login"
+import hamburgerNav from "../PageObject/hamburger_nav"
+import products from "../PageObject/products"
+import checkout from "../PageObject/checkout_page"
 
 
 describe("Buy a product" , ()=>{
@@ -45,8 +45,7 @@ it("User is able to enter the checkout information", async ()=>{
     checkoutElements.zip_posta_code().type("40901")
     checkoutElements.continue_btn().click()
     checkoutElements.finish_btn().click()
-    cy.wait(3000)
-    //checkoutElements.success_message().should('be.visible')
+    checkoutElements.success_message().should('be.visible')
 
 
 })
