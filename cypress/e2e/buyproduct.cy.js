@@ -21,7 +21,7 @@ it("User is able to login successfully", ()=> {
     login.password().type("secret_sauce")
     login.loginBtn().click()
     
-})
+})//
 
 it("User add a product in a cart", async ()=>{
     
